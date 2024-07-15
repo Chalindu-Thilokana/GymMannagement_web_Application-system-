@@ -1,0 +1,53 @@
+
+/* Center the caption */
+
+
+
+div.dt-container {
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 20px; /* Padding inside the container */
+    border: 1px solid #dee2e6; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 20px; /* Space below the container */
+}
+.table-title {
+    text-align: center; /* Center align the table title */
+    margin-top: 20px; /* Optional: add space above the table title */
+    margin-bottom: 10px; /* Optional: add space below the table title */
+    font-weight: bold; /* Optional: make the table title bold */
+    font-size: 24px; /* Optional: adjust the font size of the table title */
+}
+.dt-container h2 {
+    text-align: center; /* Center align the title */
+    margin-top: 0; /* Remove top margin */
+    margin-bottom: 20px; /* Space below the title */
+    font-size: 24px; /* Font size of the title */
+    font-weight: bold; /* Bold font weight */
+}
+.table-title {
+    caption-side: top;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+.btn-custom {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}

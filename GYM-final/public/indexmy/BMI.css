@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* {
+    font-family: 'Open Sans', sans-serif;
+} */
+
+.BMI {
+    display: flex;
+    justify-content: center;
+    padding-top: 0rem;
+}
+
+.BMI .BMI_container {
+    margin-top: 50px;
+    width: 800px;
+    box-shadow: 0px 0px 20px 10px #56ecea;
+    padding: 100px;
+    border-radius: 30px;
+    text-align: center;
+  
+    
+    
+}
+
+.BMI .BMI_container h1 {
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.BMI .BMI_container input {
+    position: relative;
+    width: 100% !important;
+    padding: 5px 0;
+    font-size: 1.1em;
+    margin: 10px 0;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #56ecea;
+    color: #fff;
+    outline: none;
+    resize: none;
+  
+}
+
+
+
+.BMI .BMI_container button {
+    width: 100%;
+    background:  #56ecea;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 25px;
+    color: #fff;
+}
+.BMI .BMI_container span{
+
+  position: relative;
+  left: 0;
+  pointer-events: none;
+  padding: 5px 0;
+  margin: 10px 0;
+  font-size: 1.1em;
+  color: #ffffff;
+  transition: 0.5s;
+  
+}
+
+
+
+ 
+
+
+
+
+.BMI .BMI_container button:hover{
+
+    color:#111317;
+    filter: drop-shadow(0 0 5px  #348887 );
+}
+.BMI .BMI_container input:focus ~ span,
+.BMI .BMI_container input:valid ~ span
+
+{
+
+    font-size: 0.9em;
+    transform: translateY(-24px);
+
+}
+

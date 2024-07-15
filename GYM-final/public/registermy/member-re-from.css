@@ -1,0 +1,113 @@
+
+
+.member {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+.mfrom {
+    background: #1f2125;
+    padding: 100px 160px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.mfrom h2 {
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    letter-spacing: 0.1em;
+    margin-bottom: 50px;
+}
+.input-box1 {
+    position: relative;
+    width: 450px;
+    margin-bottom: 40px;
+}
+.input-box1 input,
+.input-box1 select,
+.input-box1 textarea {
+    width: 100%;
+    padding: 10px 0;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #999;
+    outline: none;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+.input-box1 label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding: 10px 0;
+    pointer-events: none;
+    color: #999;
+    text-transform: uppercase;
+    transform: translateY(-50%);
+    transition: 0.5s ease;
+}
+.input-box1 input:focus,
+.input-box1 input:valid,
+.input-box1 select:focus,
+.input-box1 select:valid,
+.input-box1 textarea:focus,
+.input-box1 textarea:valid {
+    border-bottom: 2px solid #56ecea;
+}
+.input-box1 input:focus ~ label,
+.input-box1 input:valid ~ label,
+.input-box1 select:focus ~ label,
+.input-box1 select:valid ~ label,
+.input-box1 textarea:focus ~ label,
+.input-box1 textarea:valid ~ label {
+    top: -20px;
+    font-size: 0.75em;
+    color: #56ecea;
+}
+.input-box1 button[type="submit"] {
+    background: #56ecea;
+    border: none;
+    padding: 15px;
+    border-radius: 50px;
+    color: #1f2125;
+    font-weight: 600;
+    font-size: 1.15em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.input-box1 button[type="submit"]:hover {
+    letter-spacing: 0.35em;
+}
+.input-box1 label span {
+    position: relative;
+    display: inline-flex;
+    letter-spacing: 0.5em;
+    transition: 0.2s ease-in-out;
+}
+.input-box1 input:focus ~ label span,
+.input-box1 input:valid ~ label span,
+.input-box1 select:focus ~ label span,
+.input-box1 select:valid ~ label span,
+.input-box1 textarea:focus ~ label span,
+.input-box1 textarea:valid ~ label span {
+    color: #56ecea;
+    letter-spacing: 0.15em;
+}
+
+
+/* Hide the placeholder text */
+
+
+
+
+

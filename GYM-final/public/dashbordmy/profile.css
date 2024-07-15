@@ -1,0 +1,113 @@
+* {
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.member {
+    position: relative; /*mama dapu ekak */
+  
+   /* justify-content:right;  dakunata yawala thiyenne meken */
+    align-items: center;
+    min-height: 100vh;
+    
+    
+   
+}
+.mfrom {
+    position: relative;  /*mama dapu ekak */
+    background:#f9f9f9;
+    padding: 59px 59px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+   
+   align-items: center;
+}
+.mfrom h2 {
+    color: #000000;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    letter-spacing: 0.1em;
+    margin-bottom: 50px;
+}
+.input-box2 {
+    position: relative;
+    width: 350px;
+    margin-bottom: 40px;
+}
+.input-box2 input,
+.input-box2 select {
+    width: 100%;
+    padding: 10px 0;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #000000;
+    outline: none;
+    color: #000000;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+.input-box2 label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding: 10px 0;
+    pointer-events: none;
+    color: #000000;
+    text-transform: uppercase;
+    transform: translateY(-50%);
+    transition: 0.5s ease;
+}
+.input-box2 input:focus,
+.input-box2 input:valid,
+.input-box2 select:focus,
+.input-box2 select:valid {
+    border-bottom: 2px solid #56ecea;
+}
+.input-box2 input:focus ~ label,
+.input-box2 input:valid ~ label,
+.input-box2 select:focus ~ label,
+.input-box2 select:valid ~ label {
+    top: -20px;
+    font-size: 0.75em;
+    color: #56ecea;
+}
+.input-box2 button[type="submit"] {
+    background: #007bff;
+    border: none;
+    padding: 15px;
+    border-radius: 50px;
+    color: #1f2125;
+    font-weight: 600;
+    font-size: 1.15em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.input-box2 button[type="submit"]:hover {
+    letter-spacing: 0.35em;
+}
+.input-box2 label span {
+    position: relative;
+    display: inline-flex;
+    letter-spacing: 0.5em;
+    transition: 0.2s ease-in-out;
+}
+.input-box2 input:focus ~ label span,
+.input-box2 input:valid ~ label span,
+.input-box2 select:focus ~ label span,
+.input-box2 select:valid ~ label span {
+    color: #56ecea;
+    letter-spacing: 0.15em;
+}
+
+
+/* Hide the placeholder text */
